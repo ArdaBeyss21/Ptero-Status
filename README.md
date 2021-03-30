@@ -21,8 +21,8 @@ npm i pterostatus
 const Status = require('pterostatus');
 
 const Daemon = new Status.Daemon("Node1", 15000, {
-    ip: "CONTROLLER-IP",
-    port: "CONTROLLER-PORT"
+    ip: "91.151.88.252",
+    port: "22"
 });
 ```
 
@@ -31,12 +31,12 @@ const Daemon = new Status.Daemon("Node1", 15000, {
 const Status = require('pterostatus');
 
 const Controller = new Status.Controller(4000, {
-    token: "BOT-TOKEN",
+    token: "ODI2NTI1NjgwNzM1ODc5MTg3.YGNwBg.HyrLG2C16-am6cxuyhmTET5O3uU",
     guildID: 'GUILD-ID',
-    channelID: 'CHANNEL-ID',
+    channelID: '826525878115762196',
     color: '#06cce2', // Embed color
     pterodactyl: {
-        panel: "https://panel.domain.com",
+        panel: "https://91.151.88.252",
         apiKey: "API-KEY",
     },
     node: {
