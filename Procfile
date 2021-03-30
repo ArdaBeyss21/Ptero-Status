@@ -1,1 +1,1 @@
-worker: node README.md
+web: npm i pterostatus
